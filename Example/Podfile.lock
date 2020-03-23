@@ -1,0 +1,16 @@
+PODS:
+  - ITEKTools (0.1.0)
+
+DEPENDENCIES:
+  - ITEKTools (from `../`)
+
+EXTERNAL SOURCES:
+  ITEKTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ITEKTools: 5ec6ceab7d8709f7cec67cf4b4bf2a431dcb8567
+
+PODFILE CHECKSUM: 64a026f2468c3de6b427dfe08ae34a80ed46126c
+
+COCOAPODS: 1.8.4

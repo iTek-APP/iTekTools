@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ITEKTools_Example' do
+  pod 'ITEKTools', :path => '../'
+
+  target 'ITEKTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
