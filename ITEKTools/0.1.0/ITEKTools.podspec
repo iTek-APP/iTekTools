@@ -21,13 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'http://gitlab.itek-china.com/ios-private-library/itektools'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/iTek-APP/iTekTools'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '周志' => '853489221@qq.com' }
-  s.source           = { :git => 'http://gitlab.itek-china.com/ios-private-library/itektools.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'iTek' => 'chenmh@itek-china.com' }
+  s.source           = { :git => 'https://github.com/iTek-APP/iTekTools.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ITEKTools/Classes/**/*'
